@@ -23,7 +23,7 @@ To run the server:
 The echo server can be tested using `netcat`. To test with `netcat`
 execute the following:
 
-    $ nc 0.0.0.0 40731
+    $ nc 0.0.0.0 3000
 
 Everything you type followed by a return will be echoed back to you.
 
