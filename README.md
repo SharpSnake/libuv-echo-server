@@ -4,6 +4,29 @@ Simple libuv echo server
 This is a modified version of the tcp-echo-server from:
 https://github.com/bodokaiser/libuv-snippets
 
+## Building
+
+libuv was compiled on OS X for `x86_64` and included in the
+repository for __my__ convenience. Thus, libuv does not need to be
+compiled.
+
+To compile the echo server simply use make:
+
+    $ make echo-server
+
+To run the server:
+
+    $ ./echo-server
+
+## Testing
+
+The echo server can be tested using `netcat`. To test with `netcat`
+execute the following:
+
+    $ nc 0.0.0.0 40731
+
+Everything you type followed by a return will be echoed back to you.
+
 ## License
 
 Copyright © 2013 Bodo Kaiser <bodo.rene.kaiser@googlemail.com>
